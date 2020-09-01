@@ -55,9 +55,10 @@ bg.x=200
   }
   if(bananaGroup.isTouching(monkey)){
     monkey.scale=monkey.scale+0.05
+    console.log(monkey.scale);//0.50 one time/ or many 
   }
   if(obstacleGroup.isTouching(monkey)){
-    monkey.scale=monkey.scale-0.05
+    monkey.scale=monkey.scale-0.05//
   }
   bg.addImage(bgImg)
   
